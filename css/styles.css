@@ -1,0 +1,228 @@
+:root{
+/*Font  */
+    --font-famili:'Poppins',sans-serif;
+/* Color */
+    --main-light:#FFF;
+    --main-dark:#000;
+    --main-color:#8F95A5;
+
+    --secondary-color:#263238;
+    --accent-color:#939393;
+/* Skills */    
+    --card-bcg: #F5F5F5; 
+/* About us */
+    --counter-color:#2A3246;
+/* Pricing */
+    --badge-bgc:#EEEEEE;
+    --badge-color: #546269;
+/* Line */
+    --border-color:#C4C4C4;
+
+}
+/* Common styles */
+body{
+    font-family:var(--font-famili);
+    color: var(--main-color);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+}
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+}
+.list{
+    list-style: none;
+ }
+.link{
+    text-decoration: none;
+    font-family: inherit;
+}
+.button{
+    border: none;
+    background-color: transparent;
+    color: inherit;
+    cursor: pointer;
+}
+.section{
+    background-color: var(--main-light);
+}
+.section-title{
+    font-weight: 600;
+    font-size: 48px;
+    color: var(--main-dark);
+
+    line-height: 1.67;
+}
+.accent{
+    color: var(--accent-color);
+}
+/* Header */
+.header {
+    background-color: var(--main-light);
+}
+
+.logo {
+    font-size: 36px;
+    color:var(--main-dark);
+
+    line-height: 1.5;
+}
+
+.nav-list {
+    padding-left: 0;
+}
+
+.nav-link {
+    font-weight: 500;
+    font-size: 20px;
+    color: var(--secondary-color);
+    text-transform: capitalize;
+
+    line-height: 1.5;
+}
+.nav-link:hover,
+.nav-link:focus{
+    color: var(--accent-color);
+}
+
+.header-btn {
+    font-size: 24px;
+    line-height: 1.5;
+    text-transform: capitalize;
+
+    color: var(--main-dark);
+    background-color: var(--main-light);
+
+    border: 2px solid var(--secondary-color);
+    border-radius: 5px; ;
+}
+
+.header-btn:hover,
+.header-btn:focus {
+    color: var(--main-light);
+    background-color: var(--secondary-color);
+}
+
+/* Hero */
+.hero-title {
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 1.25;
+    color: var(--main-dark);
+}
+
+.hero-description {
+    font-size: 24px;
+    line-height: 1.5;
+    color:var(--main-color);
+}
+
+.hero-btn {
+    font-size: 36px;
+    line-height: 1.5;
+    color:var(--main-light);
+
+    border: 2px solid var(--secondary-color);
+    background: var(--secondary-color);
+    border-radius: 15px;
+}
+/* .hero-btn:hover,
+.hero-btn:focus{
+    color: var(--secondary-color);
+    background-color: var(--main-light);
+} */
+/* Skills */
+.skills-list{
+    padding-left: 0;
+}
+.skills-item {
+    background: var(--card-bcg);
+    border-radius: 10px;
+}
+
+.skills-title {
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 2.67;
+    color: var(--secondary-color);
+}
+
+.scills-text {
+    line-height: 1.5;
+}
+
+.skills-btn {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.5;
+
+    color: var(--main-light);
+    
+    border: 2px solid var(--secondary-color);
+    background: var(--secondary-color);
+    border-radius: 5px;
+}
+.skills-btn:hover,
+.skills-btn:focus,
+.hero-btn:hover,
+.hero-btn:focus{
+    color: var(--secondary-color);
+    background-color: var(--main-light);
+}
+/* About Us */
+.text-description {
+    font-size: 20px;
+    line-height:1.5;
+    
+}
+/* Prising */
+.price-list {
+    padding-left: 0;
+}
+
+.lesson-title {
+     font-weight: 600;
+    font-size: 30px;
+    line-height: 1.6;
+
+    color:var(--secondary-color);
+}
+
+.lesson-text {
+    font-size: 20px;
+    line-height: 1.5;
+
+}
+.price-text{
+    font-size: 18px;
+    line-height: 1.5;
+    color: var(--badge-color);
+    background: var(--badge-bgc);
+    border-radius: 5px;
+}
+.price-money {
+    font-size: 30px;
+    line-height: 1.5;
+    color: var(--secondary-color);
+
+}
+/* Contact us */
+.contact-text {
+    font-size: 20px;
+    line-height: 1.5;
+}
+/* Footer */
+.footer-text{
+    font-size: 24px;
+    line-height: 1.5;
+}
