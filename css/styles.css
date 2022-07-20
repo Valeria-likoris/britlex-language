@@ -19,6 +19,28 @@
     --border-color:#C4C4C4;
 
 }
+
+h1,
+h2,
+h3,
+h4,
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+ul,
+ol {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+img {
+    height: auto;
+    max-width: 100%;
+    display: block;
+}
 /* Common styles */
 body{
     font-family:var(--font-famili);
@@ -27,6 +49,12 @@ body{
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
+}
+.container{
+    width: 1354px;
+    margin: 0 auto;
+    padding-left: 8px;
+    padding-right: 8px;
 }
 .visually-hidden {
     position: absolute;
@@ -54,7 +82,7 @@ body{
     cursor: pointer;
 }
 .section{
-    background-color: var(--main-light);
+    
 }
 .section-title{
     font-weight: 600;
@@ -66,22 +94,37 @@ body{
 .accent{
     color: var(--accent-color);
 }
-/* Header */
+                                /* Header */
+
 .header {
-    background-color: var(--main-light);
+    padding-top: 58px; ;
+    padding-bottom: 48px ;
+   
+}
+.header-container{
+    display: flex;
+    align-items: center;
+
 }
 
 .logo {
+    margin-right: 253px;
     font-size: 36px;
     color:var(--main-dark);
 
     line-height: 1.5;
 }
 
-.nav-list {
-    padding-left: 0;
+.nav .nav-list {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    justify-content: space-between;
+    min-width: 517px;
 }
-
+.nav-item{
+    
+}
 .nav-link {
     font-weight: 500;
     font-size: 20px;
@@ -96,6 +139,10 @@ body{
 }
 
 .header-btn {
+    display: flex;
+    margin-left: auto;
+    padding: 17px 57px;
+   
     font-size: 24px;
     line-height: 1.5;
     text-transform: capitalize;
@@ -112,6 +159,7 @@ body{
     color: var(--main-light);
     background-color: var(--secondary-color);
 }
+
 
 /* Hero */
 .hero-title {
