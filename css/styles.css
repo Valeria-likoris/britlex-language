@@ -162,7 +162,17 @@ body{
 
 
 /* Hero */
+.hero-section{
+    padding-bottom: 57px;
+}
+.hero-container{
+    position: relative;
+
+}
 .hero-title {
+    width: 387px;
+    padding-top: 50px;
+    margin-bottom: 40px;
     font-weight: 600;
     font-size: 64px;
     line-height: 1.25;
@@ -170,12 +180,17 @@ body{
 }
 
 .hero-description {
+    width: 520px;
+    margin-bottom: 61px;
     font-size: 24px;
     line-height: 1.5;
     color:var(--main-color);
 }
 
 .hero-btn {
+    display: flex;
+    padding: 32px 117px;
+
     font-size: 36px;
     line-height: 1.5;
     color:var(--main-light);
@@ -184,18 +199,67 @@ body{
     background: var(--secondary-color);
     border-radius: 15px;
 }
+.hero-img{
+    position: absolute;
+    right: 0;
+    top: 0;
+    
+}
 /* .hero-btn:hover,
 .hero-btn:focus{
     color: var(--secondary-color);
     background-color: var(--main-light);
 } */
 /* Skills */
+.skills{
+    text-align: center;
+    margin-bottom: 142px;
+}
 .skills-list{
-    padding-left: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 18px;
 }
 .skills-item {
     background: var(--card-bcg);
     border-radius: 10px;
+}
+.speaking-card{
+    max-width: 434px;
+    max-height: 894px;
+}
+.speaking-img{
+    padding: 35px 22px 0px 22px;
+}
+.speaking-description{
+    padding: 5px 45px 92px 43px;
+    
+}
+.text-first{
+    margin-bottom: 29px;
+}
+.text-second{
+    margin-bottom: 36px;
+}
+.writing-card{
+    position: relative;
+    max-width: 434px;
+    max-height: 531px;
+
+}
+.writing-img{
+    position: relative;
+    right: 19px;
+    top: 0px;
+   
+}
+.reading-card{
+    max-width: 434px;
+    max-height: 532px;
+}
+.listening-card{
+    max-width: 885px;
+    max-height: 343px;
 }
 
 .skills-title {
@@ -210,6 +274,7 @@ body{
 }
 
 .skills-btn {
+    padding: 15px 52px;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.5;
